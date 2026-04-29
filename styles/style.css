@@ -17,7 +17,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: 410;
+  font-variation-settings: 'wght' 410 785;
 }
 
 /* Header */
