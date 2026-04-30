@@ -214,7 +214,6 @@
   position: relative;
   z-index: 1;
   color: var(--white-color);
-  color: var();
   font-family: var(--accent-font-family);
   font-size: 14px;
   line-height: 90%;
