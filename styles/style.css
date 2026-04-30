@@ -175,13 +175,13 @@
   font-size: 14px;
   line-height: 90%;
   letter-spacing: 0;
+  background-color: var(--white-color);
   transition: box-shadow 0.3s ease;
   cursor: pointer;
 }
 
 .card__like-button {
   padding-block: 12.5px;
-  background-color: transparent;
   inline-size: 130px;
 }
 
@@ -191,10 +191,6 @@
 
 .button:focus {
   outline: none;
-}
-
-.save-it__button:focus .save-it {
-  box-shadow: 2px 2px 0 var(--black-color);
 }
 
 .button::after {
@@ -217,7 +213,8 @@
 .button__text {
   position: relative;
   z-index: 1;
-  color: var(--mix-blend-mode-text-color);
+  color: var(--white-color);
+  color: var();
   font-family: var(--accent-font-family);
   font-size: 14px;
   line-height: 90%;
@@ -228,7 +225,7 @@
 .save-it_svg {
   position: relative;
   z-index: 1;
-  color: var(--mix-blend-mode-text-color);
+  color: var(--white-color);
   mix-blend-mode: difference;
   inline-size: 21px;
   block-size: 21px;
